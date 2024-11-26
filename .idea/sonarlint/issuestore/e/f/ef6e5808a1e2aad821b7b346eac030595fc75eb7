@@ -1,0 +1,18 @@
+
+‡
+java:S1192I"FDefine a constant instead of duplicating this literal "email" 3 times.(ˆ—žòýÿÿÿÿJ$a3e3a766-7773-48bb-8707-d69cf505db03
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$edfab39e-09c3-4069-960b-3fe2917ce0e6
+m
+java:S1128",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿJ$fa1b7bad-8783-40c8-8266-2d8881f1fdc8
+t
+java:S1128"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜJ$50d3d904-15d1-4411-8b64-24bdf7629958
+z
+java:S1128">Remove this unused import 'com.google.android.gms.tasks.Task'.(¦âÏôJ$de088ae2-ab45-431d-9f5b-b3940b715d18
+‰
+java:S1128"HRemove this unused import 'com.google.firebase.storage.FirebaseStorage'.(Ê¾ðíýÿÿÿÿJ$fa2d5a51-b0d9-49fe-beb8-6d17e7b606f1
+Š
+java:S1128"IRemove this unused import 'com.google.firebase.storage.StorageReference'.(é–ö†üÿÿÿÿJ$5ce513be-3eaf-4497-90a5-8e533844f506
+„
+java:S1128"CRemove this unused import 'com.google.firebase.storage.UploadTask'.(®ðÇŽýÿÿÿÿJ$34f51275-e744-4a41-b684-37b026830047
+‘
+java:S1128"PRemove this unused import 'ensayo.app.firebase.crudfirebasemvp.Modelo.Producto'.(Ù¢²©øÿÿÿÿJ$43e946d6-d27d-4005-8388-315fd4319e40

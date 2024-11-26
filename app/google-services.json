@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19349416517",
+    "project_id": "crudfirebasemvp-49ada",
+    "storage_bucket": "crudfirebasemvp-49ada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19349416517:android:92604aa571f0c62c04512c",
+        "android_client_info": {
+          "package_name": "ensayo.app.firebase.crudfirebasemvp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaDsZJlVsENNGNQHYe8YekgasEETUJdxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

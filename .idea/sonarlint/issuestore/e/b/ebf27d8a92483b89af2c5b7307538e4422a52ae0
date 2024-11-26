@@ -1,0 +1,12 @@
+
+•
+java:S1192Š"LDefine a constant instead of duplicating this literal "descripcion" 4 times.(Ï…ëõûÿÿÿÿ8®Ÿù¨å1J$f9441f03-47ff-4008-91c1-89e40a122907
+
+java:S1192,"LUse already-defined constant 'NOMBRE' instead of duplicating its value here.(°‡ÑˆûÿÿÿÿJ$0e0d21bd-8c6a-4017-ae7c-1b20762815a2
+…
+java:S1192o"JDefine a constant instead of duplicating this literal "imagenUrl" 3 times.(çöó7J$9f92ea8e-f823-4dfe-8893-8f1eef851288
+i
+java:S1604I"(Make this anonymous inner class a lambda(Ò¬¸™ıÿÿÿÿJ$5137ed82-8233-40e7-b55e-a22f3a945ec7
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$def82f16-56ba-44a8-b91e-f881da960fce
+„	java:S125Ç"<This block of commented-out lines of code should be removed.(Ë¤æüÿÿÿÿ8» ù¨å1J$8d545e81-20b0-4a49-a112-5c6b354644b0
+	java:S125Î"<This block of commented-out lines of code should be removed.(¼İ£ê8¼ ù¨å1J$51d42466-9a91-4be7-8fbc-9a7f4f3252ed

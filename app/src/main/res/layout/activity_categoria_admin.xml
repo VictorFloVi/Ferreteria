@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vista.CategoriaAdmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            app:srcCompat="@drawable/ic_home" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="339dp"
+            android:layout_height="60dp"
+            android:autoSizeTextType="uniform"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:text="Administrador de Categorías"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/etNombreCat"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lavender_border"
+        android:drawablePadding="8dp"
+        android:hint="nombre"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/etDescripcionCat"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/lavender_border"
+        android:drawablePadding="8dp"
+        android:hint=" descripcion"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:text="Seleccionar Imagen" />
+
+        <ImageButton
+            android:id="@+id/imaCategoria"
+            android:layout_width="96dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btnGenerarPdfCat"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PDF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp">
+
+        <Button
+            android:id="@+id/btnAgregarCat"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#33930A"
+            android:onClick="agregarcat"
+            android:text="AGREGAR"
+            app:iconPadding="8dp" />
+
+        <Button
+            android:id="@+id/btnConsultarCat"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#09B7EC"
+            android:onClick="consultar"
+            android:text="CONSULTAR" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditarCat"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="modificar"
+            android:text="EDITAR" />
+
+        <Button
+            android:id="@+id/btnBorrarCat"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#D31717"
+            android:onClick="borrar"
+            android:text="BORRAR" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvListadoCat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

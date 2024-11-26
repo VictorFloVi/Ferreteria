@@ -1,0 +1,8 @@
+
+d
+java:S1604A"(Make this anonymous inner class a lambda(®ÿ«J$7640fb9a-c657-4a00-a84d-0879bb1008a0
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$4214acc5-da9f-4385-8bed-86f4088362b8
+—
+java:S1450"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(®’¾üÿÿÿÿJ$96b75c1f-c654-4f3f-af74-ec25a80c52cc
+™
+java:S1450"XRemove the "presenter" field and declare it as a local variable in the relevant methods.(ù°ìÛüÿÿÿÿJ$d6de5a5a-ce58-4bdd-afbd-6c0cbdfb8306

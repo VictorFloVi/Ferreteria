@@ -1,0 +1,35 @@
+
+˜
+java:S1192´"OUse already-defined constant 'IMAGENURL' instead of duplicating its value here.(”Ø¾Úûÿÿÿÿ8êûÏ®¶2J$13ca27c3-274a-4f9d-85b9-613645be908b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿Èùÿÿÿÿ8íûÏ®¶2J$91f5e9e7-a6b9-4aa2-bf14-a73aead6211d
+Ê
+java:S1186ß"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ì¡üïüÿÿÿÿ8“üÏ®¶2J$ca44353f-7981-4fca-a775-573f8e9de10b
+Ê
+java:S1186ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ˜í‘úÿÿÿÿ8“üÏ®¶2J$5e6328f4-3d17-4f4b-a1fa-c24a0aa94d9e
+ž
+java:S1450@"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(®Ž’¾üÿÿÿÿ8”üÏ®¶2J$0b2b4b0e-d484-4606-8b5f-9fba24896d73
+‰
+java:S1075-"ARefactor your code to get this URI from a customizable parameter.(ö½ïÈøÿÿÿÿ8˜üÏ®¶2J$c63edecd-3d03-47e7-9008-8aaa3a70fbc8
+Ä
+java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¤üÏ®¶2J$2a589320-0e9a-42aa-9560-349f42bca449
+Ä
+java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê8¤üÏ®¶2J$3045adeb-2f70-4293-859f-a7b100ddfd47
+†
+java:S1874v">Remove this use of "startActivityForResult"; it is deprecated.(æž¼åûÿÿÿÿ8¦üÏ®¶2J$3f02caf3-87d7-44c8-8f62-21571b0a301b
+u
+java:S1602¤",Remove useless curly braces around statement(Ñåê€ÿÿÿÿÿ8©üÏ®¶2J$35b35ff5-6f88-44b5-b224-db40346ce807
+
+java:S1117Î";Rename "adapter" which hides the field declared at line 64.(îÄ÷™8«üÏ®¶2J$d9adb418-85c8-42b0-bbbc-3ae8c7a12791
+Ž
+java:S1874ð"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹Ñ8­üÏ®¶2J$276af117-83ab-4c7b-b8db-ee93a32bc41b
+„
+java:S1117‹";Rename "adapter" which hides the field declared at line 64.(”õÝèøÿÿÿÿ8®üÏ®¶2J$cfdb69fc-ca95-4489-a7b4-692b1993d9c5
+–	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùœ†´ÿÿÿÿÿ8¯üÏ®¶2J$b0ac5f58-f8be-4e20-b3f4-da17f3d20cf6
+„
+java:S1117¦";Rename "adapter" which hides the field declared at line 64.(‰À¿«øÿÿÿÿ8¯üÏ®¶2J$de1f6671-d01f-42f7-926a-7076739f6319
+„	java:S125Ç"<This block of commented-out lines of code should be removed.(î¥êýÿÿÿÿ8¼üÏ®¶2J$7f596bb2-c688-4049-a53f-8ff546025f19
+	java:S125Î"<This block of commented-out lines of code should be removed.(Í•þ¹8¼üÏ®¶2J$1234f269-5007-4fba-854f-15e9398dd785
+y
+java:S1068-"1Remove this unused "PDF_FILE_PATH" private field.(ö½ïÈøÿÿÿÿ8¿üÏ®¶2J$ec22e6b8-1470-406f-a91c-c4f73572bafa
+u
+java:S1068."-Remove this unused "IMAGENURL" private field.(Âß‹Æþÿÿÿÿ8¿üÏ®¶2J$aeafd548-f996-4e83-b142-d5c4a32b0950

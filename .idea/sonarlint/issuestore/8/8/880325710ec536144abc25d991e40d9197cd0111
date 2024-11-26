@@ -1,0 +1,8 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$96f91858-4cdc-4b38-bb95-e4bee8011d26
+
+java:S1450"VRemove the "etEmail" field and declare it as a local variable in the relevant methods.(Å¸ıßıÿÿÿÿ8‹º¬¶2J$52a1c0db-b09f-4925-9cb2-2c47ee7fad08
+¡
+java:S1450"YRemove the "etPassword" field and declare it as a local variable in the relevant methods.(¾‡¢ïúÿÿÿÿ8Œº¬¶2J$6d46bb5c-fa92-4103-8b1b-9dd26f8471b2
+›
+java:S1450"XRemove the "presenter" field and declare it as a local variable in the relevant methods.(ÅŒËË8Œº¬¶2J$00a62422-d8f2-420c-8567-621a6d07552d
