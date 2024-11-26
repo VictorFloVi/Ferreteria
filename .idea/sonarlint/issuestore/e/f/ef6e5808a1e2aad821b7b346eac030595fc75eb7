@@ -1,18 +1,18 @@
 
 ‡
-java:S1192I"FDefine a constant instead of duplicating this literal "email" 3 times.(ˆ—žòýÿÿÿÿJ$a3e3a766-7773-48bb-8707-d69cf505db03
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$edfab39e-09c3-4069-960b-3fe2917ce0e6
+java:S1192I"FDefine a constant instead of duplicating this literal "email" 3 times.(ˆ—žòýÿÿÿÿJ$80f7f566-9c8e-4ee3-92ae-5450f0dd6eb4
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$301ec590-af75-4157-ba1c-dd291f9bb333
 m
-java:S1128",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿJ$fa1b7bad-8783-40c8-8266-2d8881f1fdc8
+java:S1128",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿJ$4c70b622-672e-46e8-a360-e450ff3ba79b
 t
-java:S1128"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜJ$50d3d904-15d1-4411-8b64-24bdf7629958
+java:S1128"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜJ$145e61e3-f0d8-44f0-900b-33f26b56929b
 z
-java:S1128">Remove this unused import 'com.google.android.gms.tasks.Task'.(¦âÏôJ$de088ae2-ab45-431d-9f5b-b3940b715d18
+java:S1128">Remove this unused import 'com.google.android.gms.tasks.Task'.(¦âÏôJ$283d566c-c48f-4bef-adea-d26f7f802131
 ‰
-java:S1128"HRemove this unused import 'com.google.firebase.storage.FirebaseStorage'.(Ê¾ðíýÿÿÿÿJ$fa2d5a51-b0d9-49fe-beb8-6d17e7b606f1
+java:S1128"HRemove this unused import 'com.google.firebase.storage.FirebaseStorage'.(Ê¾ðíýÿÿÿÿJ$77d64b58-3e34-4762-a6a7-f532fcf2b9a2
 Š
-java:S1128"IRemove this unused import 'com.google.firebase.storage.StorageReference'.(é–ö†üÿÿÿÿJ$5ce513be-3eaf-4497-90a5-8e533844f506
+java:S1128"IRemove this unused import 'com.google.firebase.storage.StorageReference'.(é–ö†üÿÿÿÿJ$67f5512f-ea4b-452e-93f8-9b0f23fcc164
 „
-java:S1128"CRemove this unused import 'com.google.firebase.storage.UploadTask'.(®ðÇŽýÿÿÿÿJ$34f51275-e744-4a41-b684-37b026830047
+java:S1128"CRemove this unused import 'com.google.firebase.storage.UploadTask'.(®ðÇŽýÿÿÿÿJ$94b9e1f9-4fca-4f0b-9728-997dd51020dd
 ‘
-java:S1128"PRemove this unused import 'ensayo.app.firebase.crudfirebasemvp.Modelo.Producto'.(Ù¢²©øÿÿÿÿJ$43e946d6-d27d-4005-8388-315fd4319e40
+java:S1128"PRemove this unused import 'ensayo.app.firebase.crudfirebasemvp.Modelo.Producto'.(Ù¢²©øÿÿÿÿJ$a3cbf83a-8b2f-4bf8-b52b-f3dfdd89365b

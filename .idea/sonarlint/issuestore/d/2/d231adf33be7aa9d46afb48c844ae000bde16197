@@ -1,10 +1,14 @@
 
-i
-java:S1604("(Make this anonymous inner class a lambda(¨ÒßüÿÿÿÿJ$d1179ec8-f35a-42cd-b7b4-59d7b18afebc
-c
-java:S16043"(Make this anonymous inner class a lambda(ê¢œCJ$781845ba-da15-48d3-bfcb-fd7904d6df3b
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$f243a1a7-78a4-4beb-af9a-38c65896bf47
-
-java:S1659"LDeclare "etNombreUsuario" and all following declarations on a separate line.( ™ìüÿÿÿÿJ$dae01518-e35d-4895-8af6-6cc85beeab47
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$bb519389-73c2-4411-990f-42aaaa1f562f
+™
+java:S1450"WRemove the "etNombre" field and declare it as a local variable in the relevant methods.(Ïÿ¦h8©İÎ´¶2J$6851ce5b-ac0d-4168-b0c7-c47c24bca248
 ¡
-java:S1450"`Remove the "etxtConfirmarPass" field and declare it as a local variable in the relevant methods.( ™ìüÿÿÿÿJ$3bb87ff6-b6f1-4804-a5d3-834699a36a92
+java:S1450"^Remove the "etNombreUsuario" field and declare it as a local variable in the relevant methods.(ñ¾¬ü8ªİÎ´¶2J$52bed545-7f47-4eb6-96d4-ba79f0819d9c
+œ
+java:S1450"`Remove the "etxtConfirmarPass" field and declare it as a local variable in the relevant methods.(ÿ¡J$1eaecdd7-78e5-4c81-8f05-7cf18b36b41f
+›
+java:S1450"XRemove the "etxtEmail" field and declare it as a local variable in the relevant methods.(©´°Í8ªİÎ´¶2J$4bbe0c9a-28d7-4348-b7b6-3b62c652f528
+š
+java:S1450"WRemove the "etxtPass" field and declare it as a local variable in the relevant methods.(½­§²8ªİÎ´¶2J$694c00a3-793a-4f17-83d0-e02879f22537
+ 
+java:S1450"XRemove the "presenter" field and declare it as a local variable in the relevant methods.(•ºúÅıÿÿÿÿ8ªİÎ´¶2J$aa76e490-5d2f-4464-a60d-0f5bdbb04eff

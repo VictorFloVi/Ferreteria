@@ -1,6 +1,4 @@
 
-W
-java:S1700"Rename field "usuario"(õ¢Ä¹ÿÿÿÿÿJ$8ebba55b-7d01-4742-8153-d5f915a4e5fc
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äˆÛØûÿÿÿÿJ$7773cb3f-daa5-43aa-8677-155dbc07db41
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äˆÛØûÿÿÿÿJ$2a95207e-0753-415d-9422-0cceaa75cc62
 Â
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³ü»úÿÿÿÿJ$b8e26d29-e8b3-4249-bb2b-f515b51977a4
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³ü»úÿÿÿÿJ$319b455c-9dcf-47a8-bcea-8ca9511d4b0d

@@ -1,33 +1,14 @@
 
-ˆ
-java:S1192B"GDefine a constant instead of duplicating this literal "nombre" 3 times.(ÌëåÑúÿÿÿÿJ$5c445306-06c7-45bd-88b0-ed97574c9906
-d
-java:S1604>"(Make this anonymous inner class a lambda(ùì¢¨J$b629b353-92dd-4987-940b-2d592d275f77
-d
-java:S1604Z"(Make this anonymous inner class a lambda(ß”ƒ¶J$cee02a18-c151-4513-88db-059b87deb666
-i
-java:S1604c"(Make this anonymous inner class a lambda(Ï˜õíüÿÿÿÿJ$d3ff6b41-9b7b-4ca3-9ef4-59202f358a11
-i
-java:S1604s"(Make this anonymous inner class a lambda(¶´ÅËýÿÿÿÿJ$71af9234-7dd5-402f-b91e-da46ba6cb49c
-i
-java:S1604{"(Make this anonymous inner class a lambda(µªÂÑùÿÿÿÿJ$57e3660a-35cc-4c2a-b432-2f907647ee87
-j
-java:S1604Ž"(Make this anonymous inner class a lambda(†Ò©«þÿÿÿÿJ$19111c66-ea36-436b-89d9-910059693b3b
-e
-java:S1604ª"(Make this anonymous inner class a lambda(®ÿ«J$3ae873b3-bd73-4086-99c0-b2f8259b539c
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$4f4d25f1-f07b-4de8-814a-fd4606088e5c
-‡
-java:S1659&"LDeclare "btnConsultarCat" and all following declarations on a separate line.(ïÓ©RJ$7d9e896d-f7dc-4141-9db0-f11e5d8d5dea
-—
-java:S1450*"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(®Ž’¾üÿÿÿÿJ$409b7bd8-ba0e-4717-9533-10834d6a36a0
-½
-java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±J$31cb60ac-6206-4d9c-bad2-b3715703eba3
-½
-java:S1186V"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾êJ$780e6956-e4a1-4aa0-afe8-ed31908d897f
-
-java:S1874_">Remove this use of "startActivityForResult"; it is deprecated.(æž¼åûÿÿÿÿJ$9dd964a6-c05b-4463-938a-c33221e74aac
-‡
-java:S1874¾"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹ÑJ$b059df68-673e-4843-9074-6862e4ca5dbe
-}	java:S125ê"<This block of commented-out lines of code should be removed.(¦×ÔöÿÿÿÿÿJ$077b3049-24c2-4a5e-98af-e231bea21e98
-}
-java:S1117ƒ";Rename "adapter" which hides the field declared at line 42.(”õÝèøÿÿÿÿJ$81461ee8-f32c-455f-bdce-8da0c91b1e08
+
+java:S1192N"LUse already-defined constant 'NOMBRE' instead of duplicating its value here.(ÌëåÑúÿÿÿÿJ$57972e99-a24c-4f47-a75b-b15c7f086792
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$64a35a07-248c-40f6-83e2-e17fc59c1bbc
+Ã
+java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô—½48ØÞÎ´¶2J$d3cdd1a1-5c36-4984-9889-3c1401b3502d
+Ä
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÑíÍ8ØÞÎ´¶2J$a204a8ee-2ff0-4d6f-880d-d100bffb723a
+t
+java:S1602d",Remove useless curly braces around statement(ÕÐœûÿÿÿÿ8ÙÞÎ´¶2J$bf05b2f9-a821-4153-80e8-4ad11e1005b3
+p
+java:S1602",Remove useless curly braces around statement(ÐÆŒ’8ÛÞÎ´¶2J$24da7d8e-d9c5-4841-8c53-c1025bb22d41
+„	java:S125‘"<This block of commented-out lines of code should be removed.(î¥êýÿÿÿÿ8íÞÎ´¶2J$bf43f53e-5085-489d-926e-d74192d89b49
+	java:S125—"<This block of commented-out lines of code should be removed.(Í•þ¹8îÞÎ´¶2J$2cf527ae-b6ff-4396-b1e7-1e3e2794c491

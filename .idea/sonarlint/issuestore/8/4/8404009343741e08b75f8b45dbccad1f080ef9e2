@@ -1,12 +1,12 @@
 
 ‰
-java:S1192J"FDefine a constant instead of duplicating this literal "costo" 4 times.(œµ½Ğ8ª›ùı1J$87d7cb32-5e08-4e31-bb0f-41ee74bf659c
+java:S1192J"FDefine a constant instead of duplicating this literal "costo" 4 times.(œµ½Ğ8ª›ùı1J$10ac0be2-d20d-49ec-a1e8-13af401caeaf
 
-java:S1192I"JDefine a constant instead of duplicating this literal "categoria" 4 times.(ıÜĞ8ª›ùı1J$3e69e2e8-3697-4f97-ac14-57eec3f3200c
+java:S1192I"JDefine a constant instead of duplicating this literal "categoria" 4 times.(ıÜĞ8ª›ùı1J$69c462f5-a5a8-4f9e-9a7b-b4b3e6d2a74e
 
-java:S1192K"LDefine a constant instead of duplicating this literal "precioVenta" 4 times.(Ôü¥£8ª›ùı1J$3313a8a2-342b-4779-8e2c-5f5b03074287
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$9eec3b4b-c098-4d43-9e1d-21cb22109cd0
+java:S1192K"LDefine a constant instead of duplicating this literal "precioVenta" 4 times.(Ôü¥£8ª›ùı1J$e2d77825-e55e-4a8d-a2d9-44158a5a1a3f
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$f1f44c86-30fe-4b03-bee4-027cfb60764f
 h
-java:S1602‹",Remove useless curly braces around statement(„Ğè@J$077ae7a1-9ff6-4b08-9272-83ea064fe0b5
-„	java:S125ß"<This block of commented-out lines of code should be removed.(Ë¤æüÿÿÿÿ8ëª›ùı1J$a10357da-66b8-47fe-91fd-8b5fc58a4aa3
-	java:S125ç"<This block of commented-out lines of code should be removed.(¼İ£ê8íª›ùı1J$0087f13c-e743-4e53-bef8-00a3af26a6fe
+java:S1602‹",Remove useless curly braces around statement(„Ğè@J$48cdd01f-110b-4b9b-8cfe-93993da48648
+„	java:S125ß"<This block of commented-out lines of code should be removed.(Ë¤æüÿÿÿÿ8ëª›ùı1J$3193b53c-a3e3-4a05-a522-140bd3acc4b3
+	java:S125ç"<This block of commented-out lines of code should be removed.(¼İ£ê8íª›ùı1J$5743d8ee-38ea-484c-b5eb-a9fab5d99595

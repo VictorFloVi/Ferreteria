@@ -1,8 +1,8 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$ff03d0ba-24a8-49f3-a31c-211274911011
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•‡«–J$12c2da5c-c52b-45f1-b398-54d7ef09dc34
 r
-java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(κ‘ΖΘJ$cfb70a3b-6dd1-446a-86d3-7c9f791c0ee8
+java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(κ‘ΖΘJ$c458fd93-a5aa-4315-8bf5-0f957bdd7a68
 r
-java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(κ‘ΖΘJ$c3bf31cc-3df6-47f8-8059-71e1983089ff
+java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(κ‘ΖΘJ$b5136f9a-0e9d-40e2-b8ec-d1198477953e
 n
-java:S1874"2Remove this use of "setMessage"; it is deprecated.(ήχήJ$84c4cc82-a3ff-4da0-888e-0cbb0a11443e
+java:S1874"2Remove this use of "setMessage"; it is deprecated.(ήχήJ$c6dac40e-a9b2-4568-bafa-0a6c35efa2cd
