@@ -6,7 +6,6 @@ import android.content.Intent;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.ArrayAdapter;
@@ -17,21 +16,11 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
-
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
-import com.itextpdf.kernel.pdf.PdfDocument;
-import com.itextpdf.kernel.pdf.PdfWriter;
-import com.itextpdf.layout.Document;
-import com.itextpdf.layout.element.Paragraph;
 import com.squareup.picasso.Picasso;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -167,9 +156,8 @@ public class ProductosAdmin extends AppCompatActivity implements ProductosAdminC
             // Llama al método para obtener la lista de productos y generar el PDF
             //presenter.generarPDFProductos();
             presenter.obtenerProductosYGenerarPDF();
+
         });
-
-
 
     }
 
@@ -311,51 +299,8 @@ public class ProductosAdmin extends AppCompatActivity implements ProductosAdminC
         Picasso.get().load(producto.getImagenUrl()).into(imaProducto);
     }
 
-/*
-    public void generarPDFProductos(List<Map<String, Object>> productos) {
-        try {
-            // Ruta donde se guardará el PDF
-            String pdfFilePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/productos.pdf";
 
-            // Crear el documento PDF
-            PdfDocument pdfDocument = new PdfDocument(new PdfWriter(new File(pdfFilePath)));
-            Document document = new Document(pdfDocument);
-
-            // Añadir contenido al PDF
-            document.add(new Paragraph("Lista de Productos"));
-
-            for (Map<String, Object> producto : productos) {
-                String nombre = (String) producto.get(NOMBRE);
-                String categoria = (String) producto.get("categoria");
-                Double costo = (Double) producto.get("costo");
-                Double precioVenta = (Double) producto.get("precioVenta");
-                //String imageUrl = (String) producto.get(IMAGENURL);
-
-                // Personalizar la información que deseas agregar al PDF
-                document.add(new Paragraph("Nombre: " + nombre));
-                document.add(new Paragraph("Categoría: " + categoria));
-                document.add(new Paragraph("Costo: " + costo));
-                document.add(new Paragraph("Precio de Venta: " + precioVenta));
-                //document.add(new Paragraph("Imagen URL: " + imageUrl));
-                document.add(new Paragraph(""));  // Agregar espacio entre productos
-            }
-
-            // Cerrar el documento
-            document.close();
-            mostrarPDF(pdfFilePath);
-
-            // Mostrar un mensaje de éxito
-            Toast.makeText(this, "PDF generado correctamente", Toast.LENGTH_SHORT).show();
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            Toast.makeText(this, "Error al generar el PDF", Toast.LENGTH_SHORT).show();
-        }
-    }
-
-
-
-    private void mostrarPDF(String rutaPDF) {
+    public void mostrarPDF(String rutaPDF) {
         File pdfFile = new File(rutaPDF);
 
         // Crea un intent para abrir el PDF con el visor de PDF instalado
@@ -373,17 +318,6 @@ public class ProductosAdmin extends AppCompatActivity implements ProductosAdminC
             Toast.makeText(this, "No se encontró una aplicación para abrir el PDF", Toast.LENGTH_SHORT).show();
         }
     }
-
- */
-
-
-    @Override
-    public void mostrarPDF(String url) {
-        Toast.makeText(this, "PDF disponible en: " + url, Toast.LENGTH_LONG).show();
-        // Aquí podrías abrir el PDF o compartir el enlace, según sea necesario.
-    }
-
-
 
 
 }

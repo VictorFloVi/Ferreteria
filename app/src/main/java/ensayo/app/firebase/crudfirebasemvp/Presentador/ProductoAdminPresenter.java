@@ -22,7 +22,6 @@ import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.Paragraph;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -345,48 +344,7 @@ public class ProductoAdminPresenter implements ProductosAdminContract.Presenter 
         });
     }
 
-/*
-    public void generarPDFProductos() {
-        mDatabase = FirebaseDatabase.getInstance().getReference().child(PRODUCTOS);
 
-        mDatabase.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                List<Map<String, Object>> productosMapList = new ArrayList<>();
-
-                for (DataSnapshot productoSnapshot : dataSnapshot.getChildren()) {
-                    // Obtener los datos relevantes de cada producto
-                    String nombre = productoSnapshot.child(NOMBRE).getValue(String.class);
-                    String categoria = productoSnapshot.child("categoria").getValue(String.class);
-                    Double costo = productoSnapshot.child("costo").getValue(Double.class);
-                    Double precioVenta = productoSnapshot.child("precioVenta").getValue(Double.class);
-                    //String imageUrl = productoSnapshot.child(IMAGENURL).getValue(String.class);
-
-                    // Agregar los datos a un mapa para facilitar la creación del PDF
-                    Map<String, Object> productoMap = new HashMap<>();
-                    productoMap.put(NOMBRE, nombre);
-                    productoMap.put("categoria", categoria);
-                    productoMap.put("costo", costo);
-                    productoMap.put("precioVenta", precioVenta);
-                    //productoMap.put(IMAGENURL, imageUrl);
-
-                    productosMapList.add(productoMap);
-                }
-
-                // Llama al método de la Vista para generar el PDF
-                view.generarPDFProductos(productosMapList);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                // Manejar el error de Firebase aquí
-                view.showErrorMessage("Error al cargar los productos: " + databaseError.getMessage());
-            }
-        });
-    }
-
-
- */
 
     public void obtenerProductosYGenerarPDF() {
         mDatabase.addValueEventListener(new ValueEventListener() {
@@ -421,10 +379,10 @@ public class ProductoAdminPresenter implements ProductosAdminContract.Presenter 
     private void generarPDFYSubirFirebase(List<Map<String, Object>> productos) {
         try {
             // Crear un archivo temporal para el PDF
-            File pdfFile = File.createTempFile("productos", ".pdf");
+            String pdfFilePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/productos.pdf";
 
             // Generar el PDF
-            PdfDocument pdfDocument = new PdfDocument(new PdfWriter(pdfFile));
+            PdfDocument pdfDocument = new PdfDocument(new PdfWriter(pdfFilePath));
             Document document = new Document(pdfDocument);
 
             document.add(new Paragraph("Lista de Productos"));
@@ -444,7 +402,10 @@ public class ProductoAdminPresenter implements ProductosAdminContract.Presenter 
             document.close();
 
             // Subir el PDF a Firebase Storage
-            subirPDFaFirebase(pdfFile);
+            subirPDFaFirebase(new File(pdfFilePath));
+            abrirPDF(pdfFilePath);
+
+
 
         } catch (IOException e) {
             view.showErrorMessage("Error al generar el PDF: " + e.getMessage());
@@ -452,11 +413,26 @@ public class ProductoAdminPresenter implements ProductosAdminContract.Presenter 
     }
 
     private void subirPDFaFirebase(File pdfFile) {
-        StorageReference storageRef = FirebaseStorage.getInstance().getReference().child("pdfs/productos.pdf");
+        String pdfFileName = "productos_" + System.currentTimeMillis() + ".pdf";
+        StorageReference storageRef = FirebaseStorage.getInstance().getReference().child("pdfs/" + pdfFileName);
+
+
+        //StorageReference storageRef = FirebaseStorage.getInstance().getReference().child("pdfs/productos.pdf");
         storageRef.putFile(Uri.fromFile(pdfFile))
                 .addOnSuccessListener(taskSnapshot -> view.showSuccessMessage("PDF subido correctamente a Firebase"))
                 .addOnFailureListener(e -> view.showErrorMessage("Error al subir el PDF: " + e.getMessage()));
     }
+
+    public void abrirPDF(String rutaPDF) {
+        File pdfFile = new File(rutaPDF);
+
+        if (pdfFile.exists()) {
+            view.mostrarPDF(rutaPDF); // Llama a la vista para abrir el PDF
+        } else {
+            view.showErrorMessage("El archivo PDF no existe en la ruta especificada.");
+        }
+    }
+
 
 
 }
