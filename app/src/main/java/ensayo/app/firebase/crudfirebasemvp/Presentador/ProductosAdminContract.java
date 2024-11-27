@@ -21,6 +21,7 @@ public interface ProductosAdminContract {
         void showNotification(String message);
 
         void showSelectedImage(Uri imageUri);
+        void mostrarPDF(String mensaje);
 
         void showProductosEncontradosAutocompletado(List<String> productos);
 
@@ -45,6 +46,7 @@ public interface ProductosAdminContract {
         void borrarProducto(String nombre);
 
 
-        void generarPDFProductos();
+        //void generarPDFProductos();
+        void obtenerProductosYGenerarPDF();
     }
 }

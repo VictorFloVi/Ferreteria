@@ -1,35 +1,35 @@
 
 ˜
-java:S1192´"OUse already-defined constant 'IMAGENURL' instead of duplicating its value here.(”Ø¾Úûÿÿÿÿ8êûÏ®¶2J$018ec8c0-2dec-434d-948f-a04615568251
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿Èùÿÿÿÿ8íûÏ®¶2J$a1a5a944-2c72-492f-a588-59f6a40cc500
+java:S1192¸"OUse already-defined constant 'IMAGENURL' instead of duplicating its value here.(”Ø¾Úûÿÿÿÿ8ÌÛÓ¹¶2J$4dd4eea6-2682-489c-9b7b-7f0cb219ccf0
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿Èùÿÿÿÿ8ÎÛÓ¹¶2J$437455cf-475b-429a-a38e-459988a03fe1
 Ê
-java:S1186ß"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ì¡üïüÿÿÿÿ8“üÏ®¶2J$19d03e6b-1c77-4982-8364-3b834758e264
+java:S1186ã"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ì¡üïüÿÿÿÿ8îÛÓ¹¶2J$bf73ff3c-5c50-4f7f-bb8b-1b6e4ad0710a
 Ê
-java:S1186ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ˜í‘úÿÿÿÿ8“üÏ®¶2J$5752836f-b3a5-4dee-8677-049c63c9f1a0
+java:S1186è"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ˜í‘úÿÿÿÿ8îÛÓ¹¶2J$ceb2f6c8-26d3-4580-95e4-8fbcb25e8a62
 
-java:S1450@"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(®’¾üÿÿÿÿ8”üÏ®¶2J$3935435a-e417-4315-bb88-08ada706f384
+java:S1450A"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(®’¾üÿÿÿÿ8ïÛÓ¹¶2J$54298e48-1f8f-4cb8-8f4a-a75a597d9cb7
 ‰
-java:S1075-"ARefactor your code to get this URI from a customizable parameter.(ö½ïÈøÿÿÿÿ8˜üÏ®¶2J$9db14dde-e83c-45dc-ba54-cf05df5efab0
+java:S1075."ARefactor your code to get this URI from a customizable parameter.(ö½ïÈøÿÿÿÿ8ğÛÓ¹¶2J$7c3f3951-d798-4dc2-9f82-c1f93b497653
 Ä
-java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¤üÏ®¶2J$be9b3a70-c05f-4c89-aac4-de965b068a7d
+java:S1186f"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8úÛÓ¹¶2J$8728053e-ba26-4258-beed-db82310f4f53
 Ä
-java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê8¤üÏ®¶2J$1c6a030b-3503-4806-b326-7d8f54497b15
+java:S1186p"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê8úÛÓ¹¶2J$3db4eb85-f2e9-4bcc-a7ac-a13250de47e0
 †
-java:S1874v">Remove this use of "startActivityForResult"; it is deprecated.(æ¼åûÿÿÿÿ8¦üÏ®¶2J$001e8d00-4b54-4291-9ec2-caa8c0a1f6af
+java:S1874w">Remove this use of "startActivityForResult"; it is deprecated.(æ¼åûÿÿÿÿ8üÛÓ¹¶2J$ede6e4a1-5e87-4dba-9147-025d29179bd5
 u
-java:S1602¤",Remove useless curly braces around statement(Ñåê€ÿÿÿÿÿ8©üÏ®¶2J$a2f53d3b-48d3-44cd-894e-6379c04994f4
+java:S1602¦",Remove useless curly braces around statement(Ñåê€ÿÿÿÿÿ8’¼å¹¶2J$5bda319d-f160-40de-a1dc-f0f811dc5502
+	java:S125¨"<This block of commented-out lines of code should be removed.(÷¿ÊÉ8’¼å¹¶2J$bbc2490f-2cb5-4457-bc04-b9b20a9d3767
 
-java:S1117Î";Rename "adapter" which hides the field declared at line 64.(îÄ÷™8«üÏ®¶2J$692ebef9-4598-4cc1-9140-1390f9a3fbeb
+java:S1117Ò";Rename "adapter" which hides the field declared at line 65.(îÄ÷™8ÿÛÓ¹¶2J$44675451-8c36-4a20-a158-4bf362a0bb67
 
-java:S1874ğ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹Ñ8­üÏ®¶2J$6a7dcf21-8ffc-4d31-bce1-b93074e79c64
+java:S1874ô"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹Ñ8€ÜÓ¹¶2J$1d83fdbf-4ced-4b44-81d0-9991f620cb47
 „
-java:S1117‹";Rename "adapter" which hides the field declared at line 64.(”õİèøÿÿÿÿ8®üÏ®¶2J$4463f4d2-0b1e-4381-9c6c-7f284694776e
-–	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùœ†´ÿÿÿÿÿ8¯üÏ®¶2J$91e0619a-6845-4174-b5c4-c076335adac3
+java:S1117";Rename "adapter" which hides the field declared at line 65.(”õİèøÿÿÿÿ8ÜÓ¹¶2J$d4ad86a8-5166-4058-a6c8-370a8b8d5382
+–	java:S100©"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùœ†´ÿÿÿÿÿ8‚ÜÓ¹¶2J$d99faf62-d2ad-4957-a86e-ec472982534d
 „
-java:S1117¦";Rename "adapter" which hides the field declared at line 64.(‰À¿«øÿÿÿÿ8¯üÏ®¶2J$fd3d1f4a-5b5d-48c3-b6cd-1dbeeea903d1
-„	java:S125Ç"<This block of commented-out lines of code should be removed.(î¥êıÿÿÿÿ8¼üÏ®¶2J$d589130e-5fcc-4146-9155-243845a07f7d
-	java:S125Î"<This block of commented-out lines of code should be removed.(Í•ş¹8¼üÏ®¶2J$daecdb5d-981a-42b4-a676-a2c7d34853f2
+java:S1117ª";Rename "adapter" which hides the field declared at line 65.(‰À¿«øÿÿÿÿ8‚ÜÓ¹¶2J$3af719d1-416c-4ae3-b656-4b09194cc392
+	java:S125»"<This block of commented-out lines of code should be removed.(Ë¶äâ8ƒÜÓ¹¶2J$d8358d95-102e-472c-a205-d3f1cd44a0bf
 y
-java:S1068-"1Remove this unused "PDF_FILE_PATH" private field.(ö½ïÈøÿÿÿÿ8¿üÏ®¶2J$7a0877a0-5c0b-439d-aefb-e90d955e2379
+java:S1068."1Remove this unused "PDF_FILE_PATH" private field.(ö½ïÈøÿÿÿÿ8ƒÜÓ¹¶2J$99e506b6-cb1b-4650-823b-6f19123472fd
 u
-java:S1068."-Remove this unused "IMAGENURL" private field.(Âß‹Æşÿÿÿÿ8¿üÏ®¶2J$9d78dbbc-a7b0-4832-869a-9015dfeadc3f
+java:S1068/"-Remove this unused "IMAGENURL" private field.(Âß‹Æşÿÿÿÿ8ƒÜÓ¹¶2J$735aded6-fad8-4e19-a033-07d2f0ef8741

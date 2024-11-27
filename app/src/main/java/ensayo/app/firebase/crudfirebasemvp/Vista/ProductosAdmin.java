@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
@@ -84,7 +85,7 @@ public class ProductosAdmin extends AppCompatActivity implements ProductosAdminC
         //Ver la lista de categorías en el Spinner
         spinnerCategorias = findViewById(R.id.spinnerCategorias);
         presenter.obtenerCategorias();
-        presenter.generarPDFProductos();
+
 
         //Detecta cuando se selecciona un elemento de la lista
         lvlistado.setOnItemClickListener((parent, view, position, id) -> {
@@ -161,10 +162,13 @@ public class ProductosAdmin extends AppCompatActivity implements ProductosAdminC
             clearEditTextFields();
         });
 
+
         btnGenerarPdf.setOnClickListener(v -> {
             // Llama al método para obtener la lista de productos y generar el PDF
-            presenter.generarPDFProductos();
+            //presenter.generarPDFProductos();
+            presenter.obtenerProductosYGenerarPDF();
         });
+
 
 
     }
@@ -307,6 +311,7 @@ public class ProductosAdmin extends AppCompatActivity implements ProductosAdminC
         Picasso.get().load(producto.getImagenUrl()).into(imaProducto);
     }
 
+/*
     public void generarPDFProductos(List<Map<String, Object>> productos) {
         try {
             // Ruta donde se guardará el PDF
@@ -368,4 +373,17 @@ public class ProductosAdmin extends AppCompatActivity implements ProductosAdminC
             Toast.makeText(this, "No se encontró una aplicación para abrir el PDF", Toast.LENGTH_SHORT).show();
         }
     }
+
+ */
+
+
+    @Override
+    public void mostrarPDF(String url) {
+        Toast.makeText(this, "PDF disponible en: " + url, Toast.LENGTH_LONG).show();
+        // Aquí podrías abrir el PDF o compartir el enlace, según sea necesario.
+    }
+
+
+
+
 }

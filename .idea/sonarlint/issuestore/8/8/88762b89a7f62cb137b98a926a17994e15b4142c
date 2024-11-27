@@ -1,14 +1,14 @@
 
 
-java:S1192N"LUse already-defined constant 'NOMBRE' instead of duplicating its value here.(ÌëåÑúÿÿÿÿJ$57972e99-a24c-4f47-a75b-b15c7f086792
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$64a35a07-248c-40f6-83e2-e17fc59c1bbc
+java:S1192N"LUse already-defined constant 'NOMBRE' instead of duplicating its value here.(ÌëåÑúÿÿÿÿJ$497d24fa-ddcc-4d5d-9b8f-c03602115a44
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôâ¿ÈùÿÿÿÿJ$10ee1a6a-d202-4043-ad47-16ac55feb33c
 Ã
-java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô—½48ØŞÎ´¶2J$d3cdd1a1-5c36-4984-9889-3c1401b3502d
+java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô—½48ØŞÎ´¶2J$b8410bf4-d74c-418c-bdd5-79c7b66d50cf
 Ä
-java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÑíÍ8ØŞÎ´¶2J$a204a8ee-2ff0-4d6f-880d-d100bffb723a
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÑíÍ8ØŞÎ´¶2J$5a2a4986-4f00-4c98-964c-39fed6e85822
 t
-java:S1602d",Remove useless curly braces around statement(ÕĞœûÿÿÿÿ8ÙŞÎ´¶2J$bf05b2f9-a821-4153-80e8-4ad11e1005b3
+java:S1602d",Remove useless curly braces around statement(ÕĞœûÿÿÿÿ8ÙŞÎ´¶2J$5d79eb8c-f632-49e8-9407-40550c0409cc
 p
-java:S1602",Remove useless curly braces around statement(ĞÆŒ’8ÛŞÎ´¶2J$24da7d8e-d9c5-4841-8c53-c1025bb22d41
-„	java:S125‘"<This block of commented-out lines of code should be removed.(î¥êıÿÿÿÿ8íŞÎ´¶2J$bf43f53e-5085-489d-926e-d74192d89b49
-	java:S125—"<This block of commented-out lines of code should be removed.(Í•ş¹8îŞÎ´¶2J$2cf527ae-b6ff-4396-b1e7-1e3e2794c491
+java:S1602",Remove useless curly braces around statement(ĞÆŒ’8ÛŞÎ´¶2J$ddc0a586-fe5e-4e5f-aca7-61df48d27229
+„	java:S125‘"<This block of commented-out lines of code should be removed.(î¥êıÿÿÿÿ8íŞÎ´¶2J$e8ab0dda-c658-4fda-ae64-26b938a26b37
+	java:S125—"<This block of commented-out lines of code should be removed.(Í•ş¹8îŞÎ´¶2J$3031c310-9fbb-4bcd-8354-efcff05f42fa

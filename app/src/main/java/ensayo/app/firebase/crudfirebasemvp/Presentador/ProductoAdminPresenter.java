@@ -1,7 +1,10 @@
 package ensayo.app.firebase.crudfirebasemvp.Presentador;
 
 import android.net.Uri;
+import android.os.Environment;
 
+
+import androidx.annotation.NonNull;
 
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
@@ -13,6 +16,14 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.Paragraph;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -334,6 +345,7 @@ public class ProductoAdminPresenter implements ProductosAdminContract.Presenter 
         });
     }
 
+/*
     public void generarPDFProductos() {
         mDatabase = FirebaseDatabase.getInstance().getReference().child(PRODUCTOS);
 
@@ -373,6 +385,78 @@ public class ProductoAdminPresenter implements ProductosAdminContract.Presenter 
         });
     }
 
+
+ */
+
+    public void obtenerProductosYGenerarPDF() {
+        mDatabase.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                List<Map<String, Object>> productos = new ArrayList<>();
+
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    String nombre = snapshot.child(NOMBRE).getValue(String.class);
+                    String categoria = snapshot.child("categoria").getValue(String.class);
+                    Double costo = snapshot.child("costo").getValue(Double.class);
+                    Double precioVenta = snapshot.child("precioVenta").getValue(Double.class);
+
+                    Map<String, Object> producto = new HashMap<>();
+                    producto.put(NOMBRE, nombre);
+                    producto.put("categoria", categoria);
+                    producto.put("costo", costo);
+                    producto.put("precioVenta", precioVenta);
+                    productos.add(producto);
+                }
+
+                generarPDFYSubirFirebase(productos);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                view.showErrorMessage("Error al cargar productos: " + error.getMessage());
+            }
+        });
+    }
+
+    private void generarPDFYSubirFirebase(List<Map<String, Object>> productos) {
+        try {
+            // Crear un archivo temporal para el PDF
+            File pdfFile = File.createTempFile("productos", ".pdf");
+
+            // Generar el PDF
+            PdfDocument pdfDocument = new PdfDocument(new PdfWriter(pdfFile));
+            Document document = new Document(pdfDocument);
+
+            document.add(new Paragraph("Lista de Productos"));
+            for (Map<String, Object> producto : productos) {
+                String nombre = (String) producto.get(NOMBRE);
+                String categoria = (String) producto.get("categoria");
+                Double costo = (Double) producto.get("costo");
+                Double precioVenta = (Double) producto.get("precioVenta");
+
+                document.add(new Paragraph("Nombre: " + nombre));
+                document.add(new Paragraph("Categoría: " + categoria));
+                document.add(new Paragraph("Costo: " + costo));
+                document.add(new Paragraph("Precio de Venta: " + precioVenta));
+                document.add(new Paragraph(""));
+            }
+
+            document.close();
+
+            // Subir el PDF a Firebase Storage
+            subirPDFaFirebase(pdfFile);
+
+        } catch (IOException e) {
+            view.showErrorMessage("Error al generar el PDF: " + e.getMessage());
+        }
+    }
+
+    private void subirPDFaFirebase(File pdfFile) {
+        StorageReference storageRef = FirebaseStorage.getInstance().getReference().child("pdfs/productos.pdf");
+        storageRef.putFile(Uri.fromFile(pdfFile))
+                .addOnSuccessListener(taskSnapshot -> view.showSuccessMessage("PDF subido correctamente a Firebase"))
+                .addOnFailureListener(e -> view.showErrorMessage("Error al subir el PDF: " + e.getMessage()));
+    }
 
 
 }
